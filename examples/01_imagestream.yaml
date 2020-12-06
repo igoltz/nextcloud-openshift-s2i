@@ -1,7 +1,7 @@
 apiVersion: image.openshift.io/v1
 kind: ImageStream
 metadata:
-  name: php-73
+  name: php-74
   namespace: nextcloud
 spec:
   lookupPolicy:
@@ -10,7 +10,7 @@ spec:
     - annotations: null
       from:
         kind: DockerImage
-        name: 'quay.io/cuppett/ubi8-php73:latest'
+        name: 'quay.io/cuppett/ubi8-php74:latest'
       importPolicy:
         scheduled: true
       name: latest
