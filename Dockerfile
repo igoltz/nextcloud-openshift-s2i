@@ -1,4 +1,4 @@
-FROM quay.io/cuppett/ubi8-php74:latest
+FROM quay.io/cuppett/ubi8-php:74
 
 ENV PHP_MEMORY_LIMIT="512M"
 ENV OPCACHE_REVALIDATE_FREQ="1"

@@ -4,5 +4,5 @@
 .s2iignore
 LICENSE
 README.md
-examples
 nginx-cfg
+Dockerfile
