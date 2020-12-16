@@ -1,4 +1,4 @@
-FROM quay.io/cuppett/fedora-s2i-php-fpm:latest
+FROM quay.io/cuppett/fedora-s2i-php:33-fpm
 
 ENV PHP_MEMORY_LIMIT="512M"
 ENV PHP_OPCACHE_REVALIDATE_FREQ="1"
