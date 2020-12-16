@@ -1,6 +1,7 @@
 FROM quay.io/cuppett/fedora-s2i-php-nginx:latest
 
 ENV NGINX_DEFAULT_EXPIRES="modified +24h"
+ENV NGINX_CLIENT_MAX_BODY_SIZE="512M"
 
 USER root
 
