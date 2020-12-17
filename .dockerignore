@@ -4,5 +4,4 @@
 .s2iignore
 LICENSE
 README.md
-nginx-cfg
 Dockerfile*
