@@ -1,7 +1,8 @@
 .dockerignore
 .git
+.gitignore
 .idea
 .s2iignore
+Dockerfile*
 LICENSE
 README.md
-Dockerfile*

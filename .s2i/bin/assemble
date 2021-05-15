@@ -13,6 +13,7 @@ fix-permissions /var/www/
 
 mkdir -p ${HOME}/data
 mkdir ${HOME}/custom_apps
+rm -fR ${HOME}/nginx-cfg
 
 chmod +x ${HOME}/occ
 
