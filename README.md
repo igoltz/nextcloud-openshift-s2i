@@ -35,6 +35,11 @@ $ oc expose service/nextcloud-openshift-s2i
     
     route.route.openshift.io/nextcloud-openshift-s2i exposed
 
+$ oc patch route/nextcloud-openshift-s2i --type=merge --patch='{"spec":{"tls":{"termination":"edge"}}}'
+
+    route.route.openshift.io/nextcloud-openshift-s2i patched
+
+
 ## Digging Deeper
 
 ### Environment Variables
