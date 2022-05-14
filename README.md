@@ -4,15 +4,15 @@ Get NextCloud ready to run on OpenShift with
 
 ## Quick Start
 
-$ oc new-app quay.io/cuppett/ubi8-php:74~https://github.com/cuppett/nextcloud-openshift-s2i.git
+$ oc new-app quay.io/cuppett/ubi8-php:80~https://github.com/cuppett/nextcloud-openshift-s2i.git
 
-    --> Found container image 328ff90 (2 hours old) from quay.io for "quay.io/cuppett/ubi8-php:74"
+    --> Found container image 328ff90 (2 hours old) from quay.io for "quay.io/cuppett/ubi8-php:80"
     
-        Apache 2.4 with PHP 7.4 
+        Apache 2.4 with PHP 8.0 
         ----------------------- 
-        PHP 7.4 available as container is a base platform for building and running various PHP 7.4 applications and frameworks. PHP is an HTML-embedded scripting language. PHP attempts to make it easy for developers to write dynamically generated web pages. PHP also offers built-in database integration for several commercial and non-commercial database management systems, so writing a database-enabled webpage with PHP is fairly simple. The most common use of PHP coding is probably as a replacement for CGI scripts.
+        PHP 8.0 available as container is a base platform for building and running various PHP 8.0 applications and frameworks. PHP is an HTML-embedded scripting language. PHP attempts to make it easy for developers to write dynamically generated web pages. PHP also offers built-in database integration for several commercial and non-commercial database management systems, so writing a database-enabled webpage with PHP is fairly simple. The most common use of PHP coding is probably as a replacement for CGI scripts.
     
-        Tags: builder, php, php74, php-74
+        Tags: builder, php, php80, php-80
     
         * An image stream tag will be created as "ubi8-php:74" that will track the source image
         * A source build using source code from https://github.com/cuppett/nextcloud-openshift-s2i.git will be created
