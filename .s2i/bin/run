@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh -x
 set -eu
 
 # version_greater A B returns whether A > B
@@ -151,4 +151,5 @@ if version_greater "$image_version" "$installed_version"; then
     fi
 fi
 
+sleep 60
 source ${STI_SCRIPTS_PATH}/run
