@@ -38,6 +38,9 @@ file_env() {
 
 fix-permissions /var/www/
 
+# enable apcu on cli (needed for occ)
+sed "/apc.enable_cli=0/ a apc.enable_cli=1" /etc/php.d/40-apcu.ini
+
 installed_version="0.0.0.0"
 if [ -f /var/www/html/version.php ]; then
     # shellcheck disable=SC2016
